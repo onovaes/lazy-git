@@ -3,7 +3,7 @@
 function _status {
 	echo
 
-	echo -e "comando: git status"
+	echo -e " git status"
 	echo
 	git status
 
@@ -20,6 +20,14 @@ function _pull {
 	echo
 }
 
+function _log {
+	echo
+
+	echo -e " git log -1"
+	git log -1
+
+	echo
+}
 
 function _send {
 
@@ -73,6 +81,10 @@ case $1 in
 			_pull
 			;;
 			
+		"log")
+			_log
+			;;
+
 		"send" | "push")
 			_send
 			;;

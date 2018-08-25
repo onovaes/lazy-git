@@ -49,3 +49,14 @@ With LazyGit:
 g pull
 ```
 
+**Last commit log**
+
+Commands you want:
+- ` git log -1`
+
+With LazyGit:
+
+```
+g log
+```
+
