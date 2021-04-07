@@ -11,7 +11,7 @@ Clone the repo
 
     git clone https://github.com/onovaes/lazy-git.git
 
-Make a alias in .profile (MAC) or .bash_aliases (LINUX) file (With corret directory :D)
+Make a alias in .profile (MAC) or .bash_aliases (LINUX) file. Eg:
 
     alias g='~/Documents/Sites/lazy-git/g' 
 
