@@ -4,6 +4,17 @@ lazy-git
 Script for automating the most common git tasks.
 If you are lazy, this may be for you :)
 
+Install
+-------
+
+Clone the repo
+
+    git clone https://github.com/onovaes/lazy-git.git
+
+Make a alias in .profile (MAC) or .bash_aliases (LINUX) file (With corret directory :D)
+
+    alias g='~/Documents/Sites/lazy-git/g' 
+
 Usage
 -----
 
